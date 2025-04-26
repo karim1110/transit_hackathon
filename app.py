@@ -10,7 +10,10 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-# Title
+st.title("Transit Delay Prediction 🚍🌦️")
+st.subheader("The model achieved a recall of 93% for predicting delays, demonstrating strong effectiveness in correctly identifying delayed instances.")
+
+st.title("")
 st.title("Density Mapbox Visualization of Delays")
 
 # Dummy data for illustration
